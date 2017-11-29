@@ -1,5 +1,6 @@
 class Config(object):
     """Base config class."""
+    SECRET_KEY = '你的密钥'
     pass
 
 class ProdConfig(Config):
